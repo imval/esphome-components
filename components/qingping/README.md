@@ -34,7 +34,7 @@ Minimal sample configuration:
 # Load component implementation and code generation helpers from github.
 external_components:
   - source: github://dentra/esphome-components
-    components: [qingping, codegen]
+    components: [qingping, cgp]
 
 # Define qingping BLE listener on specified MAC-address.
 qinping:
@@ -71,7 +71,7 @@ it can listen any device.
 # Load component implementation and code generation helpers from github.
 external_components:
   - source: github://dentra/esphome-components
-    components: [qingping, codegen]
+    components: [qingping, cgp]
 
 qingping:
   - id: qp_th
